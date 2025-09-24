@@ -48,9 +48,6 @@ const Navbar = () => {
           <a href="#depoimentos" onClick={() => scrollToSection('depoimentos')} className="navbar-link">
             Depoimentos
           </a>
-          <a href="#certificacoes" onClick={() => scrollToSection('certificacoes')} className="navbar-link">
-            Certificações
-          </a>
           <a href="#faq" onClick={() => scrollToSection('faq')} className="navbar-link">
             FAQ
           </a>

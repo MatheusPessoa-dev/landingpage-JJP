@@ -150,6 +150,8 @@
   .hero {
     height: 100vh;
     padding-top: 70px;
+    animation: none;
+    background-attachment: scroll;
   }
 
   .hero-title-main {
@@ -238,6 +240,14 @@
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+}
+
+/* Desabilitar animação e background-attachment fixed em dispositivos móveis para o tema escuro também */
+@media (max-width: 768px) {
+  .dark-theme .hero {
+    animation: none;
+    background-attachment: scroll;
+  }
 }
 
 .dark-theme .hero::before {

@@ -6,7 +6,7 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Services from './components/Services';
 import Testimonials from './components/Testimonials';
-import Certifications from './components/Certifications';
+
 import FAQ from './components/FAQ';
 import Contact from './components/Contact';
 import BackToTop from './components/BackToTop';
@@ -27,7 +27,6 @@ function App() {
           <Projects />
           <Services />
           <Testimonials />
-          <Certifications />
           <FAQ />
           <Contact />
         </main>
