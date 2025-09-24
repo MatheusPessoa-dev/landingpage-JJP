@@ -1,0 +1,53 @@
+.theme-toggle {
+  background: rgba(255, 255, 255, 0.9);
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.theme-toggle:hover {
+  background: rgba(255, 255, 255, 1);
+  border-color: rgba(0, 0, 0, 0.3);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.theme-toggle svg {
+  width: 20px;
+  height: 20px;
+  fill: #374151;
+  transition: all 0.3s ease;
+}
+
+.theme-toggle:hover svg {
+  fill: #1f2937;
+}
+
+/* Tema escuro */
+.dark-theme .theme-toggle {
+  background: rgba(75, 85, 99, 0.9);
+  border-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.dark-theme .theme-toggle:hover {
+  background: rgba(107, 114, 128, 1);
+  border-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.dark-theme .theme-toggle svg {
+  fill: #f9fafb;
+}
+
+.dark-theme .theme-toggle:hover svg {
+  fill: #ffffff;
+}

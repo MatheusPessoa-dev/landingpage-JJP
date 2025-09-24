@@ -1,0 +1,97 @@
+/* ===== VARIÁVEIS DE CORES DO SITE ===== */
+:root {
+  /* Cores Primárias - Baseadas no componente Contact */
+  --primary-color: #374151;
+  --primary-hover: #1f2937;
+  --primary-light: #4b5563;
+  --primary-dark: #111827;
+  
+  /* Cores Secundárias */
+  --secondary-color: #6b7280;
+  --secondary-hover: #9ca3af;
+  --secondary-light: #d1d5db;
+  --secondary-dark: #374151;
+  
+  /* Cores de Fundo */
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8fafc;
+  --bg-tertiary: #e2e8f0;
+  --bg-dark: #1f2937;
+  --bg-darker: #111827;
+  
+  /* Cores de Texto */
+  --text-primary: #1a202c;
+  --text-secondary: #64748b;
+  --text-tertiary: #6b7280;
+  --text-light: #f9fafb;
+  --text-white: #ffffff;
+  
+  /* Cores de Borda */
+  --border-light: rgba(0, 0, 0, 0.08);
+  --border-medium: rgba(0, 0, 0, 0.12);
+  --border-dark: rgba(255, 255, 255, 0.1);
+  
+  /* Gradientes */
+  --gradient-primary: linear-gradient(135deg, #374151 0%, #1f2937 100%);
+  --gradient-light: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+  --gradient-dark: linear-gradient(135deg, #1f2937 0%, #111827 100%);
+  --gradient-card: linear-gradient(135deg, rgba(55, 65, 81, 0.02) 0%, rgba(55, 65, 81, 0.06) 100%);
+  
+  /* Sombras */
+  --shadow-sm: 0 4px 15px rgba(55, 65, 81, 0.1);
+  --shadow-md: 0 10px 40px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 20px 60px rgba(0, 0, 0, 0.12);
+  --shadow-primary: 0 4px 15px rgba(55, 65, 81, 0.4);
+  
+  /* Raios de Borda */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 12px;
+  --radius-xl: 20px;
+  
+  /* Transições */
+  --transition-fast: 0.2s ease-out;
+  --transition-normal: 0.3s ease-out;
+  --transition-slow: 0.5s ease-out;
+}
+
+/* ===== TEMA ESCURO ===== */
+.dark-theme {
+  --bg-primary: #1f2937;
+  --bg-secondary: #111827;
+  --bg-tertiary: #0f172a;
+  
+  --text-primary: #f9fafb;
+  --text-secondary: #e5e7eb;
+  --text-tertiary: #d1d5db;
+  
+  --border-light: rgba(255, 255, 255, 0.1);
+  --border-medium: rgba(255, 255, 255, 0.15);
+  
+  --gradient-light: linear-gradient(135deg, #1f2937 0%, #111827 100%);
+}
+
+/* ===== CLASSES UTILITÁRIAS ===== */
+.bg-primary { background: var(--primary-color); }
+.bg-gradient-primary { background: var(--gradient-primary); }
+.bg-gradient-light { background: var(--gradient-light); }
+.bg-gradient-dark { background: var(--gradient-dark); }
+
+.text-primary { color: var(--text-primary); }
+.text-secondary { color: var(--text-secondary); }
+.text-white { color: var(--text-white); }
+
+.border-light { border-color: var(--border-light); }
+.border-medium { border-color: var(--border-medium); }
+
+.shadow-sm { box-shadow: var(--shadow-sm); }
+.shadow-md { box-shadow: var(--shadow-md); }
+.shadow-lg { box-shadow: var(--shadow-lg); }
+
+.radius-sm { border-radius: var(--radius-sm); }
+.radius-md { border-radius: var(--radius-md); }
+.radius-lg { border-radius: var(--radius-lg); }
+
+.transition-fast { transition: var(--transition-fast); }
+.transition-normal { transition: var(--transition-normal); }
+.transition-slow { transition: var(--transition-slow); }
